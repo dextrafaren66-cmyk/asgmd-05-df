@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spaceship-titanic"
+version = "0.1.0"
+description = "Spaceship Titanic prediction pipeline"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["apps*", "utils_folder*"]
