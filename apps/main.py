@@ -67,7 +67,6 @@ def build_single_input() -> pd.DataFrame:
 def main():
     st.set_page_config(page_title="Spaceship Titanic", page_icon="🚀", layout="wide")
     st.title("🚀 Spaceship Titanic Predictor")
-    st.write("Will you be transported to another dimension?")
 
     pipe = load_model()
 
